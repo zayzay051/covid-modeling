@@ -20,12 +20,11 @@ while current_day <= days_sim:
 
     num_infected_ppl += num_infected_ppl
     (num_death_ppl)= round(num_infected_ppl * 0.023)
-    
-    # Write a print() statement that displays the number of infected people and the number of deaths. 
+    print(f"on day (current_day) there will be (num_infected_ppl:,) and approximely  {num_deaths_ppl:,) poeple will die from covid-19.\n"
     current_day += 6
-    # Use time.sleep() to pause for a few seconds to allow the user to read the instructions.  
-
-# Write a print() statement that shows the total number of infections and the number of deaths after running your simulation.  
+    time.sleep(3)
+        
+   # Write a print() statement that shows the total number of infections and the number of deaths after running your simulation.  
 
     
     
