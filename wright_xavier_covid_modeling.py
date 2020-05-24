@@ -12,7 +12,8 @@ print("this program will model potential covid-19 infection and deaths in the u.
 time.sleep(4)      
 num_infected_ppl = int(input("how many people are currently infected? please enter an integer number with no commas. then press enter.  "))
 days_sim = int(input("how many days of infection growth do you wnat to simulate? please enter and INTEGER with no commas. then press enter.  "))
-print(days_sim)
+
+print(f"the current number of infected with covid-19 is (num_infected_ppl:,) and you will simulate (days_sim) days worth of infection growth.\n")
 
 
 # Use a print() statement to display the current number of infected people and how many days to simulate.
