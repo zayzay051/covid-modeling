@@ -1,7 +1,11 @@
-# Simple COVID-19 Exponential Growth Simulator Template -- wright.x -- 5/24/20 -- Time -- Version 0.0
+# Simple COVID-19 Exponential Growth Simulator Template -- wright.x -- 5/24/20 -- Time -- Version 0.1
 
 import time
 
+num_infected_ppl = 0
+current_day = 0
+days_sim = 0
+num_death_ppl = 0
 # Create a variable here that will store the number of infected people, assign it a value of 0.  
 # Create a variable here that will store the current day number, assign it a value of 0. (i.e. the first day is day 0, the second day is day 1, etc.)
 # Create a variable here that will store the total number of days to simluate, assign it a value of 0. (i.e. how many days worth of growth will you simulate?)
