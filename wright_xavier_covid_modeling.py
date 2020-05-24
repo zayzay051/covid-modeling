@@ -1,4 +1,4 @@
-# Simple COVID-19 Exponential Growth Simulator Template -- wright.x -- 5/24/20 -- Time -- Version 0.25
+# Simple COVID-19 Exponential Growth Simulator Template -- wright.x -- 5/24/20 -- Time -- Version 0.3
 
 import time
 
@@ -11,8 +11,8 @@ num_death_ppl = 0
 print("this program will model potential covid-19 infection and deaths in the u.s. Right now the number of infections will double every six days.\n")
 time.sleep(4)      
 num_infected_ppl = int(input("how many people are currently infected? please enter an integer number with no commas. then press enter.  "))
-
-# Use an input() statement to have the user enter the NUMBER OF DAYS TO SIMULATE.  Make sure it's an INT.
+days_sim = int(input("how many days of infection growth do you wnat to simulate? please enter and INTEGER with no commas. then press enter.  "))
+print(days_sim)
 
 
 # Use a print() statement to display the current number of infected people and how many days to simulate.
